@@ -9,28 +9,30 @@
     <title>Palindroma & Pari e Dispari</title>
 </head>
 
-<body class="text-center">
-
+<body class="text-center bg-info">
+    <!-- PALINDROME SECTION -->
     <section class="mb-5">
-        <h1 class="">PALINDROME</h1>
+        <h1 class="bg-warning ">PALINDROME CHECK</h1>
         <h2 id="palindrome"> </h2>
-
+        
     </section>
+
+    <!-- ODD EVEN GUESS GAME SECTION -->
     <section class="mt-5">
-        <h1 class="m-5">Odd Even Gess Game</h1>
+        <h1 class="m-5 bg-primary text-dark">ODD EVEN GUESS GAME</h1>
 
         <div class="pariDispari">
-            <label  for="evenOdd"><h5>Guess Even or Odd</h5></label>
-            <select class="bg-secondary" id="evenOdd">
+            <label  for="evenOdd"><h4>Guess Even or Odd:</h4></label>
+            <select class="bg-primary text-white fs-4 fw-5" id="evenOdd">
                 <option value="even">Even</option>
                 <option value="odd">Odd</option>
             </select>
         </div>
 
 
-        <div id="user">
+        <div class="mt-3" id="user">
             <input type="number" id="user_input" placeholder="Enter a value from 1 to 5">
-            <button class="bg-primary" id="btn">Enter</button>
+            <button class="bg-success text-white fs-4 fw-5",  id="btn">Enter</button>
             <h3 class="your_number"></h3>
         </div>
 
