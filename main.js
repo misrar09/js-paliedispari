@@ -63,6 +63,7 @@ btnEnter.addEventListener("click", function () {
 
         // crated a ranodm number with a funtion
         function computerNum(randomNum) {
+            console.log("Random Number")
             return Math.floor(Math.random() * 5) + 1;
         }
         // calling the funtion inside a variable and adding that in html
@@ -94,6 +95,8 @@ btnEnter.addEventListener("click", function () {
         }
     }
 });
+
+computerNum();
 
 
 
